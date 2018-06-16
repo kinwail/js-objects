@@ -12,8 +12,14 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
     - add a key named `pages` and number value of 200
     
     Console.log the object.
-*/
-    
+*/ 
+var books = {
+    title: 'The obstacle is the way',
+    author: 'Ryan Holiday',
+    category: 'Self Help',
+    pages: 200
+} 
+console.log(books);
   
 /*
 2.  Declare a variable named `dog` and create the following properties (key-value pairs) to the object:
@@ -30,8 +36,17 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
  "My dog `name` is `age` year old and likes to `speak` at strangers."
 */ 
 
+var dog = {
+    name: 'Jasen',
+    age: '34',
+    vegeterian: false,
+    color: ['dark', 'hella dark'],
+    speak: function(){
+        return 'bark'
+    }
+}
 
-
+console.log('My dog ' + dog.name + ' is ' + dog.age + ' year old and likes to ' + dog.speak() + ' at stranger')
 //An empty object
 
 /*
@@ -46,6 +61,16 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
             
   Console.log the object.
 */
+var kicks ={};
+kicks.brand = 'asics';
+kicks.colors = 'cornflower blue';
+kicks.size = 9;
+kicks.price = 59.99;
+kicks.buy = function(){
+    return 'Now I is a cool kid!';
+}
+
+console.log(kicks)
 
 
 /* 
@@ -59,6 +84,14 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
   console.log the object
 */
 
+var plainBox = {};
+
+plainBox.color ='hella dark';
+plainBox.size = 15;
+plainBox.contents = [];
+
+console.log(plainBox)
+
 
 /*
 5. Declare a variable named `stockCar` and create the following properties (key-value pairs) to the object:
@@ -70,6 +103,15 @@ Objects in Javascript can be compared to objects in real life. Objects has a col
 
     console.log the object
 */
+var stockCar = {
+    model: 'Mazda2',
+    year: 2011,
+    automaticTransmission: false,
+    driver: null,
+    passengers:[]
+}
+
+console.log (stockCar);
 
 
 /*
