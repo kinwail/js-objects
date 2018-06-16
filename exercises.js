@@ -245,7 +245,16 @@ printOrders(arrayOfObjects);
         to inspect your results.
 */
 
+var sumObj = {
+    a: 40,
+    b: 82,
+    result: undefined
+}
 
+function objectAddition(object){
+return object.result = object.a + object.b;
+}
+console.log(objectAddition(sumObj));
 /*
 9. Print sum function and add as new key-value
    Declare a new function named printObj and a single parameter which will be the object from the challenge just above. 
@@ -262,6 +271,8 @@ printOrders(arrayOfObjects);
         Invoke this function and pass in your object. Further test by changing the values of the object being passed in or 
         **create more** objects and invoke your function multiple times.
  */
+
+
 
 
 /*
